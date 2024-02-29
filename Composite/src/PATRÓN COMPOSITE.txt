@@ -1,7 +1,0 @@
-PATRÓN COMPOSITE:
-Una empresa multinacional se organiza en sucursales regionales(ej suc. regional Argentina, España, etc.) y sus sucursales regionales se componen de grupos de trabajos ubicados en distintas ciudades dentro de la sucursal regional, y cada uno de ellos se componen a su vez por ciertos número de emplados se componen a su vez por cierto número de empleados. Cada uno de los empleados posee una especialidad y un sueldo.
-
-Se debe responder a los siguientes servicios:
--   Determinar la cantidad de empleados de una empresa, sucursal, o grupo que tiene una determinadad especialidad.
-- obtener la especialidad de un empleado, grupo, sucursal y empresa. la especialidad de los grupos, sucursales que es mayotia entre sus miembros.
-- Obtener todo los empleados de una empresa, sucursal o grupo que tienen una determinada especialidad.
