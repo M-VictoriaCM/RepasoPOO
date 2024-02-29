@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Biblioteca {
     private String nombre;
     private String direccion;
-    private ArrayList<Documento>documentos;
+    private ArrayList<Documento> documentos;
 
 
     public Biblioteca(String nombre, String direccion) {
@@ -15,22 +15,25 @@ public class Biblioteca {
         this.direccion = direccion;
         this.documentos = new ArrayList<>();
     }
-    public void addDocumentos(Documento nuevo){
-        if(!documentos.contains(nuevo)){
-        documentos.add(nuevo);
+
+    public void addDocumentos(Documento nuevo) {
+        if (!documentos.contains(nuevo)) {
+            documentos.add(nuevo);
         }
     }
-    public ArrayList<Documento>busqueda(Criterio c){
-        ArrayList<Documento>salida = new ArrayList<>();
-        for (Documento d : documentos){
-            if(c.cumple(d)){
+
+    public ArrayList<Documento> busqueda(Criterio c) {
+        ArrayList<Documento> salida = new ArrayList<>();
+        for (Documento d : documentos) {
+            if (c.cumple(d)) {
                 salida.add(d);
             }
         }
         return salida;
     }
-    public ArrayList<Documento>getDocumentos(){
-        ArrayList<Documento>copia = new ArrayList<>();
+
+    public ArrayList<Documento> getDocumentos() {
+        ArrayList<Documento> copia = new ArrayList<>();
         copia.addAll(documentos);
         return copia;
     }

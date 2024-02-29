@@ -42,8 +42,10 @@ public class Main {
         System.out.println("-----------------------------------------------------------------------------------------");
         //TODO b) Todos los documentos cuyo título contenga una palabra o frase dada.
         System.out.println("Todos los documentos título contenga una palabra o frase dada: Francesa");
-        Criterio palabraOFrase = new títuloContienePalabraOFrase("Francesa");
-        System.out.println(biblioteca.busqueda(palabraOFrase));
+        Criterio palabra = new títuloContienePalabraOFrase("Francesa");
+        Criterio frase = new PalabraOFraseContenido("La Revolución");
+        Criterio busquedaCompuesta = new CriterioOr(palabra, frase);
+        System.out.println(biblioteca.busqueda(busquedaCompuesta));
         System.out.println("-----------------------------------------------------------------------------------------");
         //TODO c ) Todos los documentos que contengan una palabra clave dada.
         System.out.println("Todos los documentos que contengan una palabra clave dada.");
