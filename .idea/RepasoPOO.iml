@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Composite/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Strategy/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Final16022024/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Final28022023/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
