@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86c579fd-ca94-4d9c-a855-691dd1fec6a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ElementoEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Adicional2022/Condicion/Cond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Adicional2022/Farmacia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Adicional2022/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Adicional2022/Mutual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Adicional2022/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Adicional2022/PacietneAlergico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Agroquimicos/Cultivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Agroquimicos/EmpresaAgricola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Agroquimicos/Enfermedad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Agroquimicos/ProductoQuimico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/Condicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/Espacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/Ficha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/FichaEspecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/Fortaleza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/PoderDeDestruccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CandyCrush/Tablero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/Expresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/ExpresionBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/Operacion/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/Operacion/Multiplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/Operacion/Operacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/Operacion/Resta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/ExpresionesMatematicas/Operacion/Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Parcialito4to_2021/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Parcialito4to_2021/Comercio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Parcialito4to_2021/Municipio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Parcialito4to_2021/Preferencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/And.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/Clasificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/Criterio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/NombreCientifico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/NombreVulgar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/Not.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/RiegoSuperior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Criterio/SolSuperior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Planta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Vivero/Vivero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaComparador/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaComparador/ComparadorMasEjemplares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaComparador/ComparadorMasNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaComparador/ComparadorMenosPrestado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaComparador/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaStrategy/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaStrategy/Estrategia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaStrategy/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaStrategy/LibroMasNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaStrategy/MasEjemplares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/BibliotecaStrategy/MenosPrestado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces/src/BusquedaDeDocumentos/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces/src/BusquedaDeDocumentos/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces/src/BusquedaDeDocumentos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces/src/BusquedaDeDocumentos/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2cSv6RgL5JVD0dVgue1r0NIsTAG" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/RepasoPOO/Practica8"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86c579fd-ca94-4d9c-a855-691dd1fec6a7" name="Changes" comment="" />
+      <created>1708117634445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708117634445</updated>
+    </task>
+    <servers />
+  </component>
+</project>
