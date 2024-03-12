@@ -3,14 +3,15 @@ package Carpinteria;
 public abstract class Elemento {
     private String nombre;
     private String tipo;
-    private String modoDePreparacion;
+    private String modoPresentacion;
 
-
-    public Elemento(String nombre, String tipo, String modoDePreparacion) {
+    public Elemento(String nombre, String tipo, String modoPresentacion) {
         this.nombre = nombre;
         this.tipo = tipo;
-        this.modoDePreparacion = modoDePreparacion;
+        this.modoPresentacion = modoPresentacion;
     }
+    public abstract double getPeso();
+    public abstract  double getPrecioBase();
 
     public String getNombre() {
         return nombre;
@@ -28,26 +29,11 @@ public abstract class Elemento {
         this.tipo = tipo;
     }
 
-    public String getModoDePreparacion() {
-        return modoDePreparacion;
+    public String getModoPresentacion() {
+        return modoPresentacion;
     }
 
-    public void setModoDePreparacion(String modoDePreparacion) {
-        this.modoDePreparacion = modoDePreparacion;
-    }
-
-    public abstract double getPeso();
-    public abstract double getTiempoDePreparacion();
-    public abstract double getPrecio();
-
-    @Override
-    public String toString() {
-        return "Elemento{" +"\n"+
-                "nombre='" + this.getNombre()+"\n"+
-                ", tipo='" + this.getTipo() +"\n"+
-                ", modoDePreparacion='" + this.getModoDePreparacion() +"\n"+
-                ",tiempo de preparacion='"+ this.getTiempoDePreparacion()+"dias"+"\n"+
-                ", peso='"+ this.getPeso()+" kg"+"\n"+
-                '}';
+    public void setModoPresentacion(String modoPresentacion) {
+        this.modoPresentacion = modoPresentacion;
     }
 }

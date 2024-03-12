@@ -1,17 +1,21 @@
 package Carpinteria;
 
 public class Simple extends Elemento{
-        private double peso;
-    private double tiempoDePreparacion;
-    private double precio;
-
-    public Simple(String nombre, String tipo, String modoDePreparacion, double peso, double tiempoDePreparacion, double precio) {
-        super(nombre, tipo, modoDePreparacion);
-        this.peso = peso;
-        this.tiempoDePreparacion=tiempoDePreparacion;
-        this.precio= precio;
+    private double peso;
+    private double precioBase;
+    public Simple(String nombre, String tipo, String modoPresentacion, double peso, double precioBase) {
+        super(nombre, tipo, modoPresentacion);
+        this.peso= peso;
+        this.precioBase= precioBase;
     }
 
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public void setPrecioBase(double precioBase) {
+        this.precioBase = precioBase;
+    }
 
     @Override
     public double getPeso() {
@@ -19,12 +23,7 @@ public class Simple extends Elemento{
     }
 
     @Override
-    public double getTiempoDePreparacion() {
-        return tiempoDePreparacion;
-    }
-
-    @Override
-    public double getPrecio() {
-        return precio;
+    public double getPrecioBase() {
+        return precioBase;
     }
 }

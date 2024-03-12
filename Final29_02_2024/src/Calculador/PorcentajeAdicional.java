@@ -11,6 +11,6 @@ public class PorcentajeAdicional implements AplicoAdicional{
 
     @Override
     public double calcular(Elemento e) {
-        return e.getPrecio()+(porcentaje *e.getPrecio()/100);
+        return e.getPrecioBase()+(porcentaje *e.getPrecioBase()/100);
     }
 }

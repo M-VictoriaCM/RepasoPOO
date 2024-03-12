@@ -1,8 +1,7 @@
 package Criterio;
-
 import Carpinteria.Elemento;
 
-public class CriterioTipo implements Criterio{
+public class CriterioTipo implements Especialidades{
     private String tipo;
 
     public CriterioTipo(String tipo) {

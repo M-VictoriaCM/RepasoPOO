@@ -1,11 +1,9 @@
 package Criterio;
-
 import Carpinteria.Elemento;
+public class CriterioAnd implements Especialidades{
+    private Especialidades condicion1, condicion2;
 
-public class CriterioAnd implements Criterio{
-    private Criterio condicion1, condicion2;
-
-    public CriterioAnd(Criterio condicion1, Criterio condicion2) {
+    public CriterioAnd(Especialidades condicion1, Especialidades condicion2) {
         this.condicion1 = condicion1;
         this.condicion2 = condicion2;
     }

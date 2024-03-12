@@ -1,8 +1,6 @@
 package Criterio;
-
 import Carpinteria.Elemento;
-
-public class CriterioPresentacion implements Criterio{
+public class CriterioPresentacion implements Especialidades{
     private String presentacion;
 
     public CriterioPresentacion(String presentacion) {
@@ -11,6 +9,6 @@ public class CriterioPresentacion implements Criterio{
 
     @Override
     public boolean cumple(Elemento e) {
-        return e.getModoDePreparacion().equals(presentacion);
+        return e.getModoPresentacion().equals(presentacion);
     }
 }

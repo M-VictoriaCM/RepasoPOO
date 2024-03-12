@@ -2,6 +2,6 @@ package Criterio;
 
 import Carpinteria.Elemento;
 
-public interface Criterio {
+public interface Especialidades {
     boolean cumple(Elemento e);
 }

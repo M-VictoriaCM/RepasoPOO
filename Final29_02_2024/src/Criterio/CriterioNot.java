@@ -2,10 +2,10 @@ package Criterio;
 
 import Carpinteria.Elemento;
 
-public class CriterioNot implements Criterio{
-    private Criterio condicion;
+public class CriterioNot implements Especialidades{
+    private Especialidades condicion;
 
-    public CriterioNot(Criterio condicion) {
+    public CriterioNot(Especialidades condicion) {
         this.condicion = condicion;
     }
 
