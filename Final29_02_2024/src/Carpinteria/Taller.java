@@ -28,4 +28,8 @@ public class Taller {
     public void agregarElementoAlTaller(Elemento e){
         elementos.add(e);
     }
+
+    public boolean contieneElemento(Elemento e){
+        return this.elementos.contains(e);
+    }
 }

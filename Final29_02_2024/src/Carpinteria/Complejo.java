@@ -8,7 +8,7 @@ public class Complejo extends Elemento{
         super(nombre, tipo, modoPresentacion);
         this.elementos= new ArrayList<>();
     }
-    public void addElementos(Elemento e){
+    public void addElemento(Elemento e){
         elementos.add(e);
     }
 

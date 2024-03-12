@@ -13,7 +13,7 @@ public class Pedido {
         this.numLocal = numLocal;
         this.vendedor = vendedor;
     }
-    public void addElementos(Elemento e){
+    public void addElemento(Elemento e){
         elementos.add(e);
     }
     public boolean contieneElemento(Elemento e){

@@ -15,21 +15,38 @@ public class Carpinteria {
         this.talleres = new ArrayList<>();
         this.pedidos = new ArrayList<>();
     }
+    public boolean Asignado(Pedido pedido){
+        for(Elemento e: pedido.getElementos()){
+            if(!talleres.contains(e)){
+                return false;
+            }
+        }
+        return true;
+    }
     public void addPedido(Pedido p){
         pedidos.add(p);
     }
     public void derivoATaller(Pedido pedido){
-        for (Elemento e: pedido.getElementos()) {
-            boolean asignado = false;
-            for (Taller taller : talleres) {
-                if (taller.aceptaElemento(e)) {
-                    taller.agregarElementoAlTaller(e);
-                    asignado = true;
-                    break;
+        if (!Asignado(pedido)) {
+            for (Elemento e : pedido.getElementos()) {
+                Taller tallerAsignado = buscarTaller(e);
+                if(tallerAsignado != null){
+                    tallerAsignado.agregarElementoAlTaller(e);
                 }
             }
+            Asignado(pedido);
         }
     }
+
+    private Taller buscarTaller(Elemento e) {
+        for(Taller taller : talleres){
+            if(taller.aceptaElemento(e)){
+                return taller;
+            }
+        }
+        return null;
+    }
+
     public double costoTotal(Pedido pedido, AplicoAdicional valor){
         double total=0.0;
         for (Elemento e: pedido.getElementos()){
